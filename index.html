@@ -18,6 +18,14 @@
 <link rel="icon" href="logo-96.png?v=2" type="image/png">
 <link rel="apple-touch-icon" href="logo-256.png?v=2">
 
+<style>
+  /* Pintado antes de que llegue la hoja de estilos: sin esto se ve
+     un destello del color contrario al abrir la página. */
+  html{background:#12161C}
+  html[data-tema="claro"]{background:#FFFFFF}
+  body{margin:0}
+</style>
+
 <script>
 // Va en el head y sin defer a propósito: si el tema se aplicara al
 // final, quien usa tema claro vería un destello oscuro al cargar.
