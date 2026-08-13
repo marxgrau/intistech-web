@@ -126,7 +126,9 @@ header.fijo{border-bottom-color:var(--borde)}
   font-family:'Archivo';font-variation-settings:'wdth' 105,'wght' 800;
   font-size:16.5px;letter-spacing:-.01em;
 }
-.marca b i{font-style:normal;color:var(--oro-hondo)}
+/* Logotipo: dorado en ambos temas. Un nombre de marca es
+   imagen, no texto de lectura. */
+.marca b i{font-style:normal;color:#F0B429}
 
 .menu{display:flex;gap:27px}
 .menu a{
